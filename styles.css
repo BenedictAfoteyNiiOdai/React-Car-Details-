@@ -1,0 +1,96 @@
+/* Container for the entire car component */
+.box {
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    max-width: 500px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Section headings */
+  h3 {
+    color: #007bff;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Input boxes */
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Input focus effect */
+  input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Horizontal rule styling */
+  hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+  }
+  
+  /* Button styles if needed */
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Car details container */
+.car-details {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    background-color: #eaf4ff;
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Headline */
+  .car-details h3 {
+    color: #007bff;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  
+  /* Car detail items */
+  .car-details p {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #333;
+  }
+  
+  .car-details span {
+    font-weight: bold;
+    color: #0056b3;
+  }
+  
